@@ -478,7 +478,7 @@ Expired On     : ${exp}</pre>
     <div class="notification" id="notification">Copied to clipboard!</div>
 
     <footer>
-        <p>Xray VPN Page &copy; 2024</p>
+        <p>PT. Aixxy Code Technology &copy; 2024</p>
     </footer>
 
     <script>
