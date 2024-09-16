@@ -271,7 +271,7 @@ cat > /var/www/html/xray/xray-$user.html << END
 <body>
 
     <header>
-        <h1>Xray VPN</h1>
+        <h1>X-ray Account Information</h1>
     </header>
 
     <div class="section">
@@ -279,7 +279,9 @@ cat > /var/www/html/xray/xray-$user.html << END
         <pre>ISP            : ${ISP}
 Region         : ${REG}
 City           : ${CITY}
-Port TLS/HTTPS : 443
+Group          : t.me/patunganvps25
+Auto Script    : t.me/@aixxy7 
+Port TLS       : 443
 Port HTTP      : 80
 Transport      : XTLS-Vision, TCP TLS, HTTPupgrade, Websocket, gRPC
 Expired On     : ${exp}</pre>
