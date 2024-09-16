@@ -280,7 +280,8 @@ cat > /var/www/html/xray/xray-$user.html << END
 Region         : ${REG}
 City           : ${CITY}
 Group          : t.me/patunganvps25
-Auto Script    : t.me/@aixxy7 
+Auto Script    : t.me/aixxy7 
+Limit IP       : 2 Device 1 STB
 Port TLS       : 443
 Port HTTP      : 80
 Transport      : XTLS-Vision, TCP TLS, HTTPupgrade, Websocket, gRPC
