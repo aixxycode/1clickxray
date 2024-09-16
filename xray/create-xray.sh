@@ -481,7 +481,7 @@ Expired On     : ${exp}</pre>
     <div class="notification" id="notification">Copied to clipboard!</div>
 
     <footer>
-        <p>PT. Aixxy Code Technology &copy; 2024</p>
+        <p>Copyright © 2024 PT. Aixxy Code Technology</p>
     </footer>
 
     <script>
