@@ -536,9 +536,9 @@ systemctl restart xray
 clear
 
 # Menampilkan Informasi ke Pengguna
-echo -e "${BB}————————————————————————————————————————————————————${NC}" | tee -a /user/xray-$user.log
+echo -e "${BB}—————————————————————${NC}" | tee -a /user/xray-$user.log
 echo -e "              ----- [ All Xray ] -----              " | tee -a /user/xray-$user.log
-echo -e "${BB}————————————————————————————————————————————————————${NC}" | tee -a /user/xray-$user.log
+echo -e "${BB}—————————————————————${NC}" | tee -a /user/xray-$user.log
 echo -e "ISP            : $ISP" | tee -a /user/xray-$user.log
 echo -e "Region         : $REG" | tee -a /user/xray-$user.log
 echo -e "City           : $CITY" | tee -a /user/xray-$user.log
@@ -546,7 +546,7 @@ echo -e "Port TLS/HTTPS : 443" | tee -a /user/xray-$user.log
 echo -e "Port HTTP      : 80" | tee -a /user/xray-$user.log
 echo -e "Transport      : XTLS-Vision, TCP TLS, Websocket, HTTPupgrade, gRPC" | tee -a /user/xray-$user.log
 echo -e "Expired On     : $exp" | tee -a /user/xray-$user.log
-echo -e "Link / Web     : https://$domain/xray/xray-$user.html" | tee -a /user/xray-$user.log
+echo -e "Copy Account   : https://$domain/xray/xray-$user.html" | tee -a /user/xray-$user.log
 echo -e "${BB}————————————————————————————————————————————————————${NC}" | tee -a /user/xray-$user.log
 echo -e "             ----- [ Vmess Link ] -----             " | tee -a /user/xray-$user.log
 echo -e "${BB}————————————————————————————————————————————————————${NC}" | tee -a /user/xray-$user.log
