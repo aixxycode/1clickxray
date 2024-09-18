@@ -279,6 +279,7 @@ cat > /var/www/html/xray/xray-$user.html << END
         <pre>ISP            : ${ISP}
 Region         : ${REG}
 City           : ${CITY}
+Quota          : 500GB
 Limit IP       : 2 Device 1 STB
 Port TLS       : 443
 Port HTTP      : 80
