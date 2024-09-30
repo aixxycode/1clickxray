@@ -279,11 +279,11 @@ cat > /var/www/html/xray/xray-$user.html << END
         <pre>ISP            : ${ISP}
 Region         : ${REG}
 City           : ${CITY}
-Quota          : 500GB
+Quota          : 2500GB
 Port TLS       : 443
 Port HTTP      : 80
 Transport      : XTLS-Vision, TCP TLS, HTTPupgrade, Websocket, gRPC
-Info Group     : t.me/patunganvps25
+Join Group     : t.me/patunganvps25
 Auto Script By : t.me/aixxy7 
 Script Version : 3.1
 Expired On     : ${exp}</pre>
