@@ -279,7 +279,6 @@ cat > /var/www/html/xray/xray-$user.html << END
         <pre>ISP            : ${ISP}
 Region         : ${REG}
 City           : ${CITY}
-Quota          : 2500GB
 Port TLS       : 443
 Port HTTP      : 80
 Transport      : XTLS-Vision, TCP TLS, HTTPupgrade, Websocket, gRPC
